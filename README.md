@@ -51,3 +51,11 @@ Before submitting, read through all changes one last time - code quality matters
 If you have developed without ESLint set up, run `npm run lint` in both `/backend` and `/frontend` and fix any errors/warnings.
 
 Send a link to your forked repository to your contact at Sellpy. Don't forget to mention which tasks you completed.
+
+## Database
+In order for this solution to work access to a DynamoDB table is needed.
+Please reachout to gustavkasche@gmail.com in order to obtain these credentials.
+When obtained paste them into ./backend/.env
+AWS_ACCESS_KEY_ID="your-key-id"
+AWS_SECRET_ACCESS_KEY="your-key"
+
