@@ -1,0 +1,7 @@
+PUT http://localhost:3001/todo
+Content-Type: application/json
+
+{
+  "todoTitle": "First Todo v2",
+  "todoId" : "c4040c3c-d4fd-4c03-adbd-840b637d6d73" 
+}

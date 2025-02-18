@@ -1,0 +1,9 @@
+POST http://localhost:3001/todo
+Content-Type: application/json
+
+{
+  "todoTitle": "Todo 3",
+  "userId": "Gustav",
+  "todoListId" : "Second List",
+  "todoId" :"t3" 
+}
