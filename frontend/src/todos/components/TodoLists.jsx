@@ -104,10 +104,6 @@ export const TodoLists = ({ style }) => {
             await addTodo("Gustav", newTodo.todoListId, '', newTodo.todoId);
           }}
           onCheck={(value, todo, index) => {
-<<<<<<< HEAD
-=======
-            console.log(value)
->>>>>>> b991c0003bcc1b1d5187e9868a83274d10d2b1ce
             const newTodo = { ...todo, complete: value };
             setTodos((prevTodos) =>
               prevTodos.map((todo, todoIndex) => (todoIndex === index ? newTodo : todo))
